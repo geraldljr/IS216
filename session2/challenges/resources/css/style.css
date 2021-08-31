@@ -7,7 +7,82 @@ body {
     /* You can add more CSS script below */
 }
 
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 232, 255);
+}
+.box{
+    overflow:auto;
+    width: 80%;
+    margin:auto
 
+}
+#main-header{
+    background-color: yellow;
+    color: blue;
+}
+#navigation-bar{
+    background-color: gray ;
+    height: auto;
+    font-size: 14px;
+}
+#navigation-bar ul{
+    background-color: gray;
+    padding: 0;
+}
+#navigation-bar li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 20px;
+}
+#navigation-bar a{
+    text-decoration: none;
+    color: white;        
+}
+#top-content{
+    background-color: rgb(180, 143, 94);
+    background-repeat: no-repeat;
+    background-image: url("../images/hyunbin_bg.jpg");
+    background-position: top center;
+    font-size: 27px;
+}
+
+#top-content h1{
+    margin-top: 65px;
+    color: white;
+    
+    text-align: center;
+    line-height: 60px;
+}
+#main-content{
+    float:left;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#side-bar{
+    float: right;
+    width:27%;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#main-footer{
+    text-align: center;
+    background-color: gray;
+    overflow: hidden;
+    color: white;
+    padding: 5px;
+
+}
 
 /* Add your CSS script below */
 
